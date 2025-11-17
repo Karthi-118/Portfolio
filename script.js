@@ -1,3 +1,4 @@
+console.log("JS loaded!");
 // Show button on scroll
 window.addEventListener('scroll', () => {
   if (window.scrollY > 250) {
@@ -117,5 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
             );
     });
 };
+
 
 
