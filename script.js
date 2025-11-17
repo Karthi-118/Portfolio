@@ -88,7 +88,7 @@ function closePopup() {
     emailjs.init("-Goi9RSvpYhgg-GXo"); // example: emailjs.init("A1b2C3D4.....");
 })();
 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("contact-form");
 
     form.addEventListener("submit", function (event) {
@@ -117,4 +117,5 @@ window.onload = function () {
             );
     });
 };
+
 
