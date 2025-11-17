@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Contact Debug</title>
+</head>
+<body>
+  <form id="contact-form">
+    <input id="from_name" name="from_name" placeholder="Name" required />
+    <input id="from_email" name="from_email" placeholder="Email" required />
+    <textarea id="message" name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <!-- EmailJS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- Your script (make sure path is correct) -->
+  <script src="script.js"></script>
+</body>
+</html>
