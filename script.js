@@ -117,7 +117,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             );
     });
-};
+});
+
 
 
 
