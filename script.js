@@ -103,7 +103,7 @@ window.onload = function () {
         };
 
         // Send email
-        emailjs.send("service_f1no7th", "template_u1pyh47'", templateParams)
+        emailjs.send("service_f1no7th", "template_u1pyh47", templateParams)
             .then(
                 function (response) {
                     alert("Message sent successfully!");
@@ -117,3 +117,4 @@ window.onload = function () {
             );
     });
 };
+
